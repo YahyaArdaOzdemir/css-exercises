@@ -1,0 +1,11 @@
+.unique-classone{
+background-color: black;
+color: white;
+}
+.unique-classtwo{
+background-color: yellow;
+}
+.unique-classone, .unique-classtwo{
+    font-size: 28px;
+    font-family: Helvetica, 'Times New Roman', sans-serif;
+}
