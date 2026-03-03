@@ -139,6 +139,15 @@
   gap: 15px;
 }
 
+.article .title {
+  padding: 0.5rem;
+  font-weight: bold;
+}
+
 .article .card {
   height: 200px;
+}
+
+.footer {
+  grid-column: span 2;
 }
