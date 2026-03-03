@@ -110,3 +110,25 @@
   grid-template-columns: repeat(4, 1fr);
   list-style-type: none;
 }
+
+.sidebar {
+  display: grid;
+  grid-row: span 2;
+  gap: 50px;
+
+}
+
+.sidebar .photo {
+  display: grid;
+  align-items: center;
+}
+
+.sidebar .side-content {
+  display: grid;
+  align-items: center;
+}
+.nav ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  list-style-type: none;
+}
